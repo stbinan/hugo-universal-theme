@@ -39,6 +39,9 @@
   <!-- Custom stylesheet - for your changes -->
   <link href="{{ .Site.BaseURL }}css/custom.css" rel="stylesheet">
 
+  {{ if .Site.Params.zeronet }}
+    <link href="{{ .Site.BaseURL }}css/custom-zeronet.css" rel="stylesheet">
+  {{ end }}
 
   <!-- Favicon and apple touch icons-->
   <link rel="shortcut icon" href="{{ .Site.BaseURL }}img/favicon.ico" type="image/x-icon" />
