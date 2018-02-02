@@ -8,3 +8,19 @@
 .box-simple {
   min-height: 230px;
 }
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .home-carousel h1 {
+    font-size: 40px;
+    letter-spacing: 0em;
+}
+  .box-image-text.blog .content {
+    height: 370px;
+}
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .home-carousel h1 {
+    font-size: 33px;
+    letter-spacing: 0em;
+}
+}
